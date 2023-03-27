@@ -89,7 +89,7 @@ content/
     └── ...
 ```
 
-You can set the value of the `enableMath` attribute in the Front Matter of the file in any level, which will affect this page or all pages under this section. The priority is Page > Section > Site. For example, if I set `enableMath: fasle` in Front Matter of `nested-doc` and set `enableMath: true` in Front Matter of `nested-content-1.md`, it will make `nested-content-1.md` render math formulas. Formulas in other files under the `nested-doc` folder will not be rendered.
+You can set the value of the `enableMath` attribute in the Front Matter of the file in any level, which will affect this page or all pages under this section. The priority is Page > Section > Site. For example, if I set `enableMath: false` in Front Matter of `nested-doc` and set `enableMath: true` in Front Matter of `nested-content-1.md`, it will make `nested-content-1.md` render math formulas. Formulas in other files under the `nested-doc` folder will not be rendered.
 
 ## Comment
 
@@ -116,7 +116,7 @@ content/
     └── ...
 ```
 
-You can set the value of the `enableComment` attribute in the Front Matter of the file in any level, which will affect this page or all pages under this section. The priority is Page > Section > Site. For example, if I set `enableComment: fasle` in Front Matter of `nested-doc` and set `enableComment: true` in Front Matter of `nested-content-1.md`, it will make `nested-content-1.md` enable comment. Comment in other files under the `nested-doc` folder will not be enabled.
+You can set the value of the `enableComment` attribute in the Front Matter of the file in any level, which will affect this page or all pages under this section. The priority is Page > Section > Site. For example, if I set `enableComment: false` in Front Matter of `nested-doc` and set `enableComment: true` in Front Matter of `nested-content-1.md`, it will make `nested-content-1.md` enable comment. Comment in other files under the `nested-doc` folder will not be enabled.
 
 **comment.handler(string)**
 
